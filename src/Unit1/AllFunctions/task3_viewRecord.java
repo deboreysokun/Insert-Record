@@ -32,7 +32,7 @@ public class task3_viewRecord {
            
             ResultSet rs = st.executeQuery("Select * from b6a where id = '"+id+"'");
             rs.next();
-            temp.setName(rs.getString("sname"));
+            temp.setName(rs.getString("name"));
             temp.setID(rs.getString("ID")); 
         }
         catch (SQLException | ClassNotFoundException ex) {

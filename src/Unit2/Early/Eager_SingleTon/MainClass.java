@@ -3,11 +3,11 @@
 */
 package Unit2.Early.Eager_SingleTon;
 
-public class MainClass {
+public class MainClass{
     public static void main(String[] args){
         SingleTon s = SingleTon.getObj();
-        System.out.println(s);
-        
+        s.print();
+       
         SingleTon sp = SingleTon.getObj();
         System.out.println(sp);
         sp.print();

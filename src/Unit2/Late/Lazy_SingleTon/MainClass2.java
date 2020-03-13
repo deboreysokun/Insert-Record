@@ -9,5 +9,6 @@ public class MainClass2 {
     SingleTon2 sp = SingleTon2.getOBj();
     System.out.println(sp);
     sp.print();
+    
     }
 }

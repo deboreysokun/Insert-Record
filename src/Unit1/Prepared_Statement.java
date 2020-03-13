@@ -8,15 +8,16 @@ import java.sql.PreparedStatement;
 
 public class Prepared_Statement {
     public static void main(String args[]){
-       Prepared_Statement phb = new Prepared_Statement();
+//       Prepared_Statement phb = new Prepared_Statement();
        Model obj = new Model();
        obj.setID("500");
        obj.setName("Borey");
+       obj.setID("1101801041");
+       obj.setName("June");
        insertRecord(obj);
 //        obj.se("500");
 //        obj.setName("Borey");
 //        phb.insertName(obj);
-        
     }
     static public void insertRecord(Model obj){
         try{

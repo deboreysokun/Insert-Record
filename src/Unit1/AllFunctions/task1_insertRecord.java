@@ -36,10 +36,4 @@ public class task1_insertRecord {
            Logger.getLogger(task1_insertRecord.class.getName()).log(Level.SEVERE, null, ex);
        } 
     }
-
-    private static class Methods {
-
-        public Methods() {
-        }
-    }
 }

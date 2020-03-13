@@ -3,8 +3,8 @@ package Unit2.Early.Eager_SingleTon;
 
 public class SingleTon {
     
-    private int id;
-    private String name;
+    private int id= 1101801041;
+    private String name = "Deborey Sokun";
     private static SingleTon s = new SingleTon();
     private SingleTon(){}
     

@@ -14,6 +14,5 @@ public class Android implements AndroidCharger{
     @Override
     public void charge() {
         System.out.println("Charging on Android device...");
-    }
-    
+    } 
 }

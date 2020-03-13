@@ -7,7 +7,7 @@ public class Phone {
         IphoneCharger iphone = new Iphone();
         iphone.charge();
         
-        IphoneCharger android2 = new IphoneToIphoneAdaptor(new Android());
+        IphoneCharger android2 = new IphoneToAndroidAdaptor(new Android());
         android2.charge();
     }
 }

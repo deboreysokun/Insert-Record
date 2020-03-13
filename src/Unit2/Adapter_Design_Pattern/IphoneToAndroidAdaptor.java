@@ -9,9 +9,9 @@ package Unit2.Adapter_Design_Pattern;
  *
  * @author Borey
  */
-public class IphoneToIphoneAdaptor implements IphoneCharger{
+public class IphoneToAndroidAdaptor implements IphoneCharger{
     Android android;
-    public IphoneToIphoneAdaptor (Android android){
+    public IphoneToAndroidAdaptor (Android android){
         this.android = android;
     }
     

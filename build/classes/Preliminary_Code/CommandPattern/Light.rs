@@ -1,0 +1,4 @@
+Preliminary_Code.CommandPattern.LightOnCommand$LightOffCommand
+Preliminary_Code.CommandPattern.Light
+Preliminary_Code.CommandPattern.LightOffCommand
+Preliminary_Code.CommandPattern.LightOnCommand

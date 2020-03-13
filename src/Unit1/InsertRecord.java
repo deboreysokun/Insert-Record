@@ -24,7 +24,7 @@ public class InsertRecord {
            String id = input.next();
            String name = input.next();
            
-           //to cancadiante the input to databse
+           //to cancadiante the input to database
             st.execute("insert into b6a values ('"+id+"','"+name+"')");  
         } catch (SQLException ex) {
             Logger.getLogger(InsertRecord.class.getName()).log(Level.SEVERE, null, ex);
